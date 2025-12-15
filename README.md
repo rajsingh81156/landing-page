@@ -1,16 +1,79 @@
-# React + Vite
+#  My Landing Page (TechVision)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built using **React.js** and **Vite**, featuring smooth navigation, interactive UI components, and a user dashboard. Designed with a clean gradient-based theme and scalable architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Demo
+🔗 Deployment link will be added here
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Features
 
-## Expanding the ESLint configuration
+-  Modern gradient-based UI
+-  Fast performance with Vite
+-  Fully responsive design
+-  Client-side routing using React Router
+-  Interactive hero section
+-  Get Started / Continue flow
+-  User dashboard page
+-  Custom favicon and branding
+-  Clean and scalable project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- **Frontend:** React.js
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
+- **Icons:** Lucide React
+- **State Management:** React Hooks
+- **Storage:** Browser Local Storage (demo purpose)
+
+---
+
+##  Project Structure
+
+my-landing-page/
+├── node_modules/
+├── public/
+├── src/
+│ ├── assets/
+│ │ └── favicon.svg
+│ ├── components/
+│ ├── pages/
+│ │ ├── Continue.jsx
+│ │ ├── Dashboard.jsx
+│ │ └── GetStarted.jsx
+│ ├── utils/
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+---
+
+##  Getting Started
+
+### 1️ Clone the Repository
+```bash
+git clone git@github.com:rajsingh81156/landing-page.git
+
+cd my-landing-page
+
+npm install
+
+npm run dev
+
+
