@@ -35,23 +35,24 @@ A modern, responsive landing page built using **React.js** and **Vite**, featuri
 
 ---
 
-##  Project Structure
+## Project Structure
 
+```text
 my-landing-page/
 ├── node_modules/
 ├── public/
 ├── src/
-│ ├── assets/
-│ │ └── favicon.svg
-│ ├── components/
-│ ├── pages/
-│ │ ├── Continue.jsx
-│ │ ├── Dashboard.jsx
-│ │ └── GetStarted.jsx
-│ ├── utils/
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
+│   ├── assets/
+│   │   └── favicon.svg
+│   ├── components/
+│   ├── pages/
+│   │   ├── Continue.jsx
+│   │   ├── Dashboard.jsx
+│   │   └── GetStarted.jsx
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
@@ -61,6 +62,7 @@ my-landing-page/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
+
 
 ---
 
