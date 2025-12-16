@@ -5,7 +5,7 @@ A modern, responsive landing page built using **React.js** and **Vite**, featuri
 ---
 
 ##  Live Demo
-🔗 Deployment link will be added here
+[text](https://landing-page-omega-five-24.vercel.app/)
 
 ---
 
